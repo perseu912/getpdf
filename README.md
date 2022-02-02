@@ -13,7 +13,12 @@
 <a href='#'><img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dd/getpdf"></a>
 <img alt="PyPI - License" src="https://img.shields.io/pypi/l/getpdf">
 <br/>
+
+
 <img src='https://img.shields.io/badge/system-linux%20%7C%20deb-brightgreen'>
+
+<img alt="GitHub Pipenv locked Python version" src="https://img.shields.io/github/pipenv/locked/python-version/perseu912/getpdf">
+
 <br/>
 <!-- outros premios e analises -->
 <!-- <a href='#'><img alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/perseu912/noawclg?logo=codefactor">
