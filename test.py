@@ -1,3 +1,3 @@
 from getpdf import getpdf
 
-print(getpdf('scipy',n=20))
+print(getpdf('ondas gravitacionais',n=99))

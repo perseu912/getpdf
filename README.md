@@ -10,7 +10,7 @@
 <!-- sites de pacotes -->
 <a href='https://pypi.org/project/noaawc/'><img src='https://img.shields.io/pypi/v/getpdf'></a>
 <a href='#'><img src='https://img.shields.io/pypi/wheel/getpdf'></a>
-<a href='#'><img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dd/getpdf"></a>
+<a href='#'><img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/getpdf"></a>
 <img alt="PyPI - License" src="https://img.shields.io/pypi/l/getpdf">
 <br/>
 
@@ -41,7 +41,12 @@ $ pip3 install getpdf -U
 ## Examples
 
 ```sh
-(main)$ getpdf 'waves gravtational' 12
+$ getpdf 'waves gravtational' 12
+```
+
+results
+
+```sh
 size search 12
  [1/12] [0min:0sec | ETA: 0min:1sec] 
 pdf/waves_gravtational/lec005.pdf 0.15 MB saved! [ping: 26.0 ms] 
@@ -78,9 +83,14 @@ pdf/waves_gravtational/ligo_CERN_040714.pdf 4.75 MB saved! [ping: 2653.9 ms]
 
  [12/12] [0min:57sec | ETA: 0min:0sec] 
 pdf/waves_gravtational/GRavitational_Wave_Energy.pdf 0.30 MB saved! [ping: 228.6 ms] 
+```
 
+```sh
+$ ls pdf/
+```
 
-(main)$ ls pdf/waves_gravtational/                                                                                                                              
+```sh
+waves_gravtational/                                                                                                                              
 1710.04635.pdf                     cursoGW-ICTP-Sturani1.pdf      lec005.pdf            Paul-Lasky-Why-gravitational-waves-are-of-supermassive-importance.pdf  rnoti-p684.pdf             ssi94-002.pdf
 annurev.nucl.54.070103.181251.pdf  GRavitational_Wave_Energy.pdf  ligo_CERN_040714.pdf  pdf.pdf                                                                Spanish_SKA_WB_04_gws.pdf
 ```
