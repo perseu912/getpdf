@@ -1,3 +1,3 @@
-from getpdf import getpdf
+from getpdf import search_pdf
 
-print(getpdf('ondas gravitacionais',n=99))
+print(search_pdf('interstelar'))
